@@ -1,0 +1,16 @@
+{
+    "qaOrder": {
+        "qaFacilitySearchKey": "QA Facility",
+        "autoInsertPhysician":"div[id='mat-autocomplete-4']",
+        "qaFacilityAutoComplete": "Dr. Hunter Atkinson (A98185)",
+        "qaPatientSearchKey":"Qa Patient",
+        "qaPatientByAutoComplete":"div[id='mat-autocomplete-6']"
+    },
+    "emptyQaOrder": {
+        "qaFacilitySearchKey": "",
+        "autoInsertPhysician":"",
+        "qaFacilityAutoComplete": "",
+        "qaPatientSearchKey":"",
+        "qaPatientByAutoComplete":""
+    }
+}
