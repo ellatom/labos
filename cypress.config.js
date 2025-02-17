@@ -21,4 +21,8 @@ export default defineConfig({
         browser: "chrome",
         retries: 2,
     },
+    fixturesFolder: 'cypress/fixtures',
+    integrationFolder: 'cypress/integration',
+    screenshotsFolder: 'cypress/screenshots',
+    supportFile: 'cypress/support/index.js',
 });

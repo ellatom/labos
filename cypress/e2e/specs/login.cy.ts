@@ -12,7 +12,7 @@ describe("Login page tests", () => {
   });
 
   // not happy flow
-  it("should not login with invalid credntials", function () {
+  it("should not login with invalid credentials", function () {
     LoginPage.login(
       this.usersData.invalidUser1.userName,
       this.usersData.invalidUser1.password
@@ -21,7 +21,7 @@ describe("Login page tests", () => {
   });
 
   //happy flow
-  it("should login with valid credntials", function () {
+  it("should login with valid credentials", function () {
     LoginPage.login();
     this.validateWaitResponseStatusCode(`@${LoginPage.InterceptionRequestName}`,HttpStatusCode.OK);
   });
